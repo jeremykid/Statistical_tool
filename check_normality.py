@@ -25,7 +25,7 @@ def check_normality(data, group_name):
     plt.xlabel("Values")
     plt.ylabel("Density")
     plt.legend()
-    plt.savefig(f'{group_name} distribution.png')
+    plt.savefig(f'./img/{group_name} distribution.png')
     
 if __name__ == '__main__':
     print ('p-value > 0.05 means possible Normal Distribution')
